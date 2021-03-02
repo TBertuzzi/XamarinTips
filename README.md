@@ -34,6 +34,21 @@ Mude o estilo da MainTheme.Base para
 <style name="MainTheme.Base" parent="Theme.AppCompat.DayNight.DarkActionBar">
 ```
 
+### Encontrar o Arquivo .keystore para assinar o Android 
+
+Considerando a instalação Padrão :
+
+***Windows : C:\Usuários\NOMEDEUSUÁRIO\AppData\Local\Xamarin\Mono for Android\debug.keystore***
+***Mac : ~/.local/share/Xamarin/Mono for Android/debug.keystore***
+
+Arquivos criados por você :
+
+***Windows : C:\UserNAME UserData\Local\Xamarin\Mono\para Android Keystorealias\alias.keystore***
+***Mac : ~/Library/Developer/Xamarin/Keystore/alias/alias.keystore***
+
+onde alias é o nome do certificado que você criou
+
+
 
 # Xamarin.iOS
 
